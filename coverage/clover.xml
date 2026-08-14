@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1785872130457" clover="3.2.0">
+  <project timestamp="1785872130457" name="All files">
+    <metrics statements="22" coveredstatements="21" conditionals="30" coveredconditionals="19" methods="5" coveredmethods="5" elements="57" coveredelements="45" complexity="0" loc="22" ncloc="22" packages="2" files="3" classes="3"/>
+    <package name="pañol">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <file name="PañolPage.tsx" path="C:\Users\Leandro\Desktop\ORMAT\OrmatApp2\OrmatApp\src\features\pañol\PañolPage.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="92" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="94" count="2" type="stmt"/>
+        <line num="99" count="40" type="stmt"/>
+        <line num="103" count="2" type="stmt"/>
+      </file>
+      <file name="pañolStyles.css" path="C:\Users\Leandro\Desktop\ORMAT\OrmatApp2\OrmatApp\src\features\pañol\pañolStyles.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="pañol.components">
+      <metrics statements="17" coveredstatements="16" conditionals="28" coveredconditionals="18" methods="3" coveredmethods="3"/>
+      <file name="ItemCounter.tsx" path="C:\Users\Leandro\Desktop\ORMAT\OrmatApp2\OrmatApp\src\features\pañol\components\ItemCounter.tsx">
+        <metrics statements="17" coveredstatements="16" conditionals="28" coveredconditionals="18" methods="3" coveredmethods="3"/>
+        <line num="10" count="10" type="stmt"/>
+        <line num="11" count="10" type="cond" truecount="1" falsecount="1"/>
+        <line num="13" count="10" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="10" type="cond" truecount="1" falsecount="1"/>
+        <line num="17" count="10" type="stmt"/>
+        <line num="18" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="10" type="stmt"/>
+        <line num="24" count="8" type="stmt"/>
+        <line num="25" count="10" type="cond" truecount="4" falsecount="0"/>
+        <line num="26" count="10" type="cond" truecount="4" falsecount="0"/>
+        <line num="27" count="10" type="cond" truecount="3" falsecount="3"/>
+        <line num="28" count="10" type="cond" truecount="1" falsecount="1"/>
+        <line num="29" count="10" type="cond" truecount="3" falsecount="3"/>
+        <line num="31" count="10" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
