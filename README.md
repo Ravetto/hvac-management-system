@@ -1,75 +1,42 @@
-# React + TypeScript + Vite
+# ❄️ Ormat ERP - Sistema de Gestión para Servicios de Refrigeración (HVAC)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+*Ormat ERP* es una solución web integral diseñada para la digitalización y optimización de procesos operativos en empresas de refrigeración, climatización y mantenimiento técnico. 
 
-Currently, two official plugins are available:
+El sistema centraliza el control de inventario (pañol), la emisión de órdenes de trabajo, el seguimiento de flota vehicular y la generación de presupuestos operacionales.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🛠️ Tecnologías Utilizadas
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+* *Frontend:* React 18+ | TypeScript | Vite
+* *Estilos & UI:* Tailwind CSS
+* *Gestión de Estado & Hooks:* Custom Hooks | React Hooks (useState, useEffect, useRef)
+* *Peticiones HTTP:* Axios
+* *Control de Versiones:* Git & GitHub
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 🚀 Funcionalidades Principales (En desarrollo / Roadmap)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- [x] *Control de Pañol e Insumos:* Monitoreo de stock de repuestos (gases refrigerantes, cañerías, herramientas) con alertas de stock crítico.
+- [ ] *Búsqueda y Filtrado en Tiempo Real:* Gestión ágil de herramientas para operadores.
+- [ ] *Gestión de Órdenes de Trabajo (OT):* Asignación de servicios, técnicos y estado de solicitudes.
+- [ ] *Gestión de Flota Vehicular:* Control de estado de vehículos y mantenimientos programados.
+- [ ] *Generación de Presupuestos & Reportes PDF:* Creación de presupuestos descargables para clientes.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 💻 Instalación Local
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+```bash
+# Clonar el repositorio
+git clone [https://github.com/TU-USUARIO/ormat-erp.git](https://github.com/TU-USUARIO/ormat-erp.git)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+# Entrar a la carpeta del proyecto
+cd ormat-erp
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# Instalar dependencias
+npm install
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+# Iniciar servidor de desarrollo
+npm run dev
