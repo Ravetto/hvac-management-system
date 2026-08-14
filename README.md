@@ -1,6 +1,6 @@
-# ❄️ Ormat ERP - Sistema de Gestión para Servicios de Refrigeración (HVAC)
+# ❄️ hvac-management-system - Sistema de Gestión para Servicios de Refrigeración (HVAC)
 
-*Ormat ERP* es una solución web integral diseñada para la digitalización y optimización de procesos operativos en empresas de refrigeración, climatización y mantenimiento técnico. 
+*hvac-management-system* es una solución web integral diseñada para la digitalización y optimización de procesos operativos en empresas de refrigeración, climatización y mantenimiento técnico. 
 
 El sistema centraliza el control de inventario (pañol), la emisión de órdenes de trabajo, el seguimiento de flota vehicular y la generación de presupuestos operacionales.
 
@@ -30,10 +30,10 @@ El sistema centraliza el control de inventario (pañol), la emisión de órdenes
 
 ```bash
 # Clonar el repositorio
-git clone [https://github.com/TU-USUARIO/ormat-erp.git](https://github.com/TU-USUARIO/ormat-erp.git)
+git clone [https://github.com/Ravetto/hvac-management-system.git](https://github.com/Ravetto/hvac-management-system.git)
 
 # Entrar a la carpeta del proyecto
-cd ormat-erp
+cd hvac-management-system
 
 # Instalar dependencias
 npm install
